@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support - ShipMates</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, #3366cc 0%, #66aaff 100%);
+            min-height: 100vh;
+            padding: 40px 20px;
+            color: #333;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            padding: 50px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+        }
+        
+        .back-link {
+            display: inline-block;
+            color: #3366cc;
+            text-decoration: none;
+            margin-bottom: 30px;
+            font-weight: 500;
+        }
+        
+        .back-link:hover {
+            text-decoration: underline;
+        }
+        
+        h1 {
+            color: #3366cc;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            color: #666;
+            font-size: 1.1rem;
+            margin-bottom: 40px;
+        }
+        
+        .contact-card {
+            background: linear-gradient(135deg, #3366cc 0%, #5588dd 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 15px;
+            margin-bottom: 40px;
+        }
+        
+        .contact-card h2 {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+        }
+        
+        .contact-method {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 15px;
+            padding: 15px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+        }
+        
+        .contact-method:last-child {
+            margin-bottom: 0;
+        }
+        
+        .icon {
+            font-size: 1.5rem;
+        }
+        
+        .contact-method a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.1rem;
+            font-weight: 500;
+        }
+        
+        .contact-method a:hover {
+            text-decoration: underline;
+        }
+        
+        .section {
+            margin-bottom: 40px;
+        }
+        
+        .section h2 {
+            color: #333;
+            font-size: 1.6rem;
+            margin-bottom: 20px;
+        }
+        
+        .faq-item {
+            margin-bottom: 25px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 10px;
+            border-left: 4px solid #3366cc;
+        }
+        
+        .faq-item h3 {
+            color: #3366cc;
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+        }
+        
+        .faq-item p {
+            color: #555;
+            line-height: 1.6;
+        }
+        
+        .links-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+        
+        .link-card {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        
+        .link-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        .link-card a {
+            color: #3366cc;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 50px;
+            padding-top: 30px;
+            border-top: 1px solid #eee;
+            color: #666;
+            font-size: 0.9rem;
+        }
+        
+        @media (max-width: 600px) {
+            .container {
+                padding: 30px 20px;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .contact-card {
+                padding: 20px;
+            }
+            
+            .links-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back-link">← Back to Home</a>
+        
+        <h1>⛵ Support</h1>
+        <p class="subtitle">We're here to help! Get assistance with ShipMates.</p>
+        
+        <div class="contact-card">
+            <h2>Contact Us</h2>
+            <div class="contact-method">
+                <span class="icon">✉️</span>
+                <a href="mailto:Support@ShipMatesCruiseApp.io">Support@ShipMatesCruiseApp.io</a>
+            </div>
+            <p style="margin-top: 15px; opacity: 0.9; font-size: 0.95rem;">
+                We typically respond within 24-48 hours. For urgent safety concerns, please use the in-app reporting feature.
+            </p>
+        </div>
+        
+        <div class="section">
+            <h2>Frequently Asked Questions</h2>
+            
+            <div class="faq-item">
+                <h3>How do I get started?</h3>
+                <p>Download ShipMates from the App Store, create an account, complete your profile, and add your cruise details. You'll then be able to see and connect with other passengers on your cruise.</p>
+            </div>
+            
+            <div class="faq-item">
+                <h3>Is ShipMates free to use?</h3>
+                <p>Yes! ShipMates is free to download and use. We may offer premium features in the future.</p>
+            </div>
+            
+            <div class="faq-item">
+                <h3>How do I report inappropriate behavior?</h3>
+                <p>Tap on any user's profile and select "Report User." You can also block users directly from their profile. All reports are reviewed by our safety team.</p>
+            </div>
+            
+            <div class="faq-item">
+                <h3>Can I delete my account?</h3>
+                <p>Yes. Go to Profile → Account Settings → Delete Account. This will permanently remove all your data.</p>
+            </div>
+            
+            <div class="faq-item">
+                <h3>I'm not seeing other cruisers. Why?</h3>
+                <p>Make sure you've added your cruise details (ship name, sailing date, departure port). You'll only see passengers on the same cruise as you.</p>
+            </div>
+            
+            <div class="faq-item">
+                <h3>How do I verify my email?</h3>
+                <p>Check your inbox (and spam folder) for a verification email from ShipMates. Click the link to verify. You can request a new verification email from your Profile settings.</p>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>Additional Resources</h2>
+            <div class="links-grid">
+                <div class="link-card">
+                    <a href="privacy-policy.html">Privacy Policy</a>
+                </div>
+                <div class="link-card">
+                    <a href="terms-of-service.html">Terms of Service</a>
+                </div>
+                <div class="link-card">
+                    <a href="community-guidelines.html">Community Guidelines</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p><strong>ShipMates</strong> - Connect with fellow cruisers</p>
+            <p style="margin-top: 10px;">© 2025 ShipMates. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
+
